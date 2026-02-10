@@ -65,19 +65,19 @@ export const NAV_LINKS = [
 // Services
 export const SERVICES = [
   {
-    title: "AI/ML Engineer",
+    title: "Agentic AI Architect",
     icon: web,
   },
   {
-    title: "Generative AI Specialist",
+    title: "XR & Spatial Computing",
     icon: mobile,
   },
   {
-    title: "Backend & Cloud Developer",
+    title: "Local LLM Specialist",
     icon: backend,
   },
   {
-    title: "MLOps Expert",
+    title: "AI Automation Expert",
     icon: creator,
   },
 ] as const;
@@ -85,31 +85,31 @@ export const SERVICES = [
 // Technologies
 export const TECHNOLOGIES = [
   {
-    name: "Python",
-    icon: javascript, // Placeholder for Python
+    name: "OpenClaw",
+    icon: javascript, // Placeholder
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Meta Quest 3",
+    icon: typescript, // Placeholder
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Llama 3",
+    icon: reactjs, // Placeholder
   },
   {
-    name: "LangChain",
+    name: "LangGraph",
     icon: redux, // Placeholder
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Ollama",
+    icon: tailwind, // Placeholder
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Python",
+    icon: nodejs, // Placeholder
   },
   {
-    name: "MongoDB",
+    name: "Vector DBs",
     icon: mongodb,
   },
   {
@@ -117,15 +117,15 @@ export const TECHNOLOGIES = [
     icon: threejs,
   },
   {
-    name: "git",
-    icon: git,
+    name: "LangChain",
+    icon: git, // Placeholder
   },
   {
-    name: "AWS",
-    icon: figma, // Placeholder for AWS
+    name: "Hugging Face",
+    icon: figma, // Placeholder
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
 ] as const;
@@ -133,16 +133,16 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "AI/ML Engineer",
+    title: "Agentic AI Architect",
     company_name: "FolderWave",
     icon: starbucks, // Placeholder
     iconBg: "#383E56",
     date: "Jan 2024 - Present",
     points: [
-      "Architected and operated production ML pipelines for an enterprise automation platform built on Apache Kafka.",
-      "Real-time ETL processing 1000+ events/second with sub-100ms latency, deployed on AWS (ECS, Lambda, Kinesis).",
-      "Designed and maintained DevOps/MLOps infrastructure with enterprise-grade CI/CD pipelines (GitHub Actions) and Docker.",
-      "Built LLM-based AI systems with Pinecone vector database, achieving 95% retrieval accuracy with RAG pipelines.",
+      "Architecting autonomous multi-agent systems for enterprise automation using LangGraph and OpenClaw.",
+      "Deploying local LLM inference engines with vLLM and Ollama for privacy-focused document processing.",
+      "Building real-time RAG pipelines on AWS with sub-100ms latency for intelligent retrieval.",
+      "Optimizing GenAI workflows for production, achieving 99.9% uptime with Kubernetes orchestration.",
     ],
   },
   {
@@ -152,10 +152,9 @@ export const EXPERIENCES = [
     iconBg: "#E6DEDD",
     date: "Jan 2019 - Jan 2022",
     points: [
-      "Built and operated production data infrastructure serving 10,000+ concurrent users with 400+ REST API endpoints.",
-      "Implemented OAuth2 authentication, async processing, and rate limiting with comprehensive monitoring.",
-      "Managed large-scale data processing workflows using Apache Spark and Hadoop ETL workflows.",
-      "Deployed on AWS (EC2, S3, RDS, Lambda) with automated CI/CD and ELK Stack logging.",
+      "Built high-performance data infrastructure serving 10k+ users using Python and Distributed Systems.",
+      "Implemented automated ETL workflows and real-time data streaming with Apache Kafka.",
+      "Developed scalable REST APIs and microservices deployed on AWS Lambda and ECS.",
     ],
   },
 ] as const;
@@ -183,20 +182,20 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Social Media Automation SaaS",
+    name: "Agentic Job Hunter",
     description:
-      "Architected production LLM infrastructure integrating Claude API and Stability AI for generative capabilities, built RAG pipelines using Pinecone and Weaviate.",
+      "Autonomous multi-agent system that scrapes job boards, customizes resumes using local LLMs (Llama 3), and auto-applies with OpenClaw.",
     tags: [
       {
-        name: "Claude API",
+        name: "OpenClaw",
         color: "blue-text-gradient",
       },
       {
-        name: "Pinecone",
+        name: "Llama 3",
         color: "green-text-gradient",
       },
       {
-        name: "Docker",
+        name: "LangGraph",
         color: "pink-text-gradient",
       },
     ],
@@ -205,20 +204,20 @@ export const PROJECTS = [
     live_site_link: "https://github.com/ajay-automates",
   },
   {
-    name: "Job Application Automation",
+    name: "XR Spatial Interface",
     description:
-      "Developed ML data extraction pipeline processing 100+ job application types with 92% accuracy using Selenium and BeautifulSoup.",
+      "Immersive mixed reality workspace for Meta Quest 3, allowing users to interact with 3D data visualizations and AI agents in real-time.",
     tags: [
       {
-        name: "Python",
+        name: "Meta Quest 3",
         color: "blue-text-gradient",
       },
       {
-        name: "Selenium",
+        name: "Three.js",
         color: "green-text-gradient",
       },
       {
-        name: "Vector DB",
+        name: "WebXR",
         color: "pink-text-gradient",
       },
     ],
@@ -227,20 +226,20 @@ export const PROJECTS = [
     live_site_link: "https://github.com/ajay-automates",
   },
   {
-    name: "AI Voice Agent",
+    name: "Local Brain API",
     description:
-      "Built a production real-time streaming data system with WebSocket communication, achieving sub-100ms end-to-end latency.",
+      "A privacy-first AI API server running local LLMs (Mistral, Gemma) via Ollama, integrated with a custom vector memory store.",
     tags: [
       {
-        name: "WebSockets",
+        name: "Ollama",
         color: "blue-text-gradient",
       },
       {
-        name: "Audio Codecs",
+        name: "FastAPI",
         color: "green-text-gradient",
       },
       {
-        name: "AsyncIO",
+        name: "Vector DB",
         color: "pink-text-gradient",
       },
     ],

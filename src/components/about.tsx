@@ -54,11 +54,10 @@ export const About = () => {
           variants={fadeIn(undefined, undefined, 0.1, 1)}
           className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm a skilled website developer with experience in TypeScript and
-          Javascript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+          I'm an AI Engineer passionate about building intelligent, autonomous systems.
+          I specialize in **Agentic AI**, **Local LLMs** (Ollama, Llama 3), and **XR interactions** (Meta Quest 3).
+          From orchestrating multi-agent workflows with **OpenClaw** and **LangGraph** to creating immersive spatial computing experiences,
+          I love pushing the boundaries of what AI can do. Let's build something crazy together!
         </motion.p>
 
         {/* Service Card */}
