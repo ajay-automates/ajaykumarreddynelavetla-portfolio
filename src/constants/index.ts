@@ -147,16 +147,16 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "Agentic AI Architect",
+    title: "AI Automation & DevOps Engineer",
     company_name: "FolderWave",
     icon: folderwave,
     iconBg: "#383E56",
     date: "Jan 2024 - Present",
     points: [
-      "Architecting autonomous multi-agent systems for enterprise automation using LangGraph and OpenClaw.",
-      "Deploying local LLM inference engines with vLLM and Ollama for privacy-focused document processing.",
-      "Building real-time RAG pipelines on AWS with sub-100ms latency for intelligent retrieval.",
-      "Optimizing GenAI workflows for production, achieving 99.9% uptime with Kubernetes orchestration.",
+      "Architecting end-to-end data pipelines and automation systems for an EdTech SaaS platform serving 10,000+ schools — handling API integrations, ETL workflows, and production database operations at scale.",
+      "Building autonomous scheduling and orchestration systems with Java, Python, and PowerShell across distributed infrastructure, achieving 99.9% reliability with zero manual intervention.",
+      "Developing real-time monitoring dashboards and secure cross-server tooling tracking 500K+ records and 12+ production workflows with automated alerting and encrypted credential management.",
+      "Reducing operational overhead by 80%+ through intelligent automation while leveraging AI-assisted development (Copilot, Claude) to accelerate engineering velocity by 40%.",
     ],
   },
   {
@@ -164,11 +164,12 @@ export const EXPERIENCES = [
     company_name: "IdeaBytes",
     icon: ideabytes,
     iconBg: "#E6DEDD",
-    date: "Jan 2019 - Jan 2022",
+    date: "Jan 2019 - Dec 2021",
     points: [
-      "Built high-performance data infrastructure serving 10k+ users using Python and Distributed Systems.",
-      "Implemented automated ETL workflows and real-time data streaming with Apache Kafka.",
-      "Developed scalable REST APIs and microservices deployed on AWS Lambda and ECS.",
+      "Built and shipped 15+ production web applications end-to-end — React.js and Next.js frontends, Spring Boot and Node.js backends, MySQL databases — owning the full stack from design to deployment.",
+      "Engineered scalable REST APIs with auth, validation, and optimized queries, improving response times by 30% and reducing bugs by 40% through automated testing with Selenium and Cucumber.",
+      "Integrated payment gateways, social platform APIs, and external services while implementing CI/CD pipelines with Git and Jenkins for streamlined deployments.",
+      "Delivered 5+ major client projects with 95% satisfaction rate, building dashboards, e-commerce platforms, and data visualization tools across cross-functional teams.",
     ],
   },
 ] as const;

@@ -96,11 +96,11 @@ export const Works = () => {
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            Following projects showcases my skills and experience through
-            real-world examples of my work. Each project is briefly described
-            with links to code repositories and live demos in it. It reflects my
-            ability to solve complex problems, work with different technologies,
-            and manage projects effectively.
+            Building at the intersection of AI, automation, and the future no
+            one's ready for. These aren't side projects — they're autonomous
+            systems, intelligent agents, and infrastructure that runs while I
+            sleep. Every line of code is deployed. Every demo is live. Welcome
+            to the lab.
           </motion.p>
         </div>
 
