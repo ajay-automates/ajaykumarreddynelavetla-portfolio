@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="futureBg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a1a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a0a2a;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow4">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid4" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ff9900" stroke-width="0.5" opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#futureBg4)"/>
+  <rect width="800" height="600" fill="url(#grid4)"/>
+
+  <!-- Title -->
+  <text x="400" y="60" font-size="48" font-weight="bold" text-anchor="middle" fill="#ff9900" filter="url(#glow4)" letter-spacing="2">
+    EMAILBLAST
+  </text>
+
+  <!-- Central hub -->
+  <circle cx="400" cy="180" r="50" fill="none" stroke="#ff9900" stroke-width="3" filter="url(#glow4)"/>
+  <circle cx="400" cy="180" r="40" fill="#ff9900" opacity="0.05"/>
+  <text x="400" y="190" text-anchor="middle" fill="#ff9900" font-size="12" font-weight="bold">AI ENGINE</text>
+
+  <!-- Email cards being sent with glow -->
+  <rect x="100" y="280" width="140" height="100" rx="8" fill="#ff9900" opacity="0.03" stroke="#ff9900" stroke-width="2" filter="url(#glow4)"/>
+  <text x="170" y="305" text-anchor="middle" fill="#ff9900" font-size="11" font-weight="bold">EMAIL 1</text>
+  <text x="170" y="325" text-anchor="middle" fill="#ffcc66" font-size="9">PERSONALIZED</text>
+  <text x="170" y="360" text-anchor="middle" fill="#ff0000" font-size="10" font-weight="bold">→ SENDING</text>
+  <line x1="240" y1="330" x2="350" y2="180" stroke="#ff9900" stroke-width="2" opacity="0.4" filter="url(#glow4)"/>
+
+  <rect x="330" y="280" width="140" height="100" rx="8" fill="#ff9900" opacity="0.03" stroke="#ff9900" stroke-width="2" filter="url(#glow4)"/>
+  <text x="400" y="305" text-anchor="middle" fill="#ff9900" font-size="11" font-weight="bold">EMAIL 2</text>
+  <text x="400" y="325" text-anchor="middle" fill="#ffcc66" font-size="9">PERSONALIZED</text>
+  <text x="400" y="360" text-anchor="middle" fill="#00ff00" font-size="10" font-weight="bold">✓ SENT</text>
+
+  <rect x="560" y="280" width="140" height="100" rx="8" fill="#ff9900" opacity="0.03" stroke="#ff9900" stroke-width="2" filter="url(#glow4)"/>
+  <text x="630" y="305" text-anchor="middle" fill="#ff9900" font-size="11" font-weight="bold">EMAIL 3</text>
+  <text x="630" y="325" text-anchor="middle" fill="#ffcc66" font-size="9">PERSONALIZED</text>
+  <text x="630" y="360" text-anchor="middle" fill="#00ff00" font-size="10" font-weight="bold">✓ SENT</text>
+  <line x1="560" y1="330" x2="450" y2="180" stroke="#ff9900" stroke-width="2" opacity="0.4" filter="url(#glow4)"/>
+
+  <!-- Analytics -->
+  <rect x="100" y="430" width="640" height="110" rx="8" fill="none" stroke="#ff9900" stroke-width="2" filter="url(#glow4)"/>
+  <circle cx="120" cy="450" r="6" fill="#ff9900" filter="url(#glow4)"/>
+  <text x="140" y="455" fill="#ff9900" font-size="12" font-weight="bold">CAMPAIGN METRICS</text>
+
+  <text x="120" y="485" fill="#ffcc66" font-size="11">◆ Sent: 4,251 emails</text>
+  <text x="120" y="510" fill="#ffcc66" font-size="11">◆ Open Rate: 43.2%</text>
+  <text x="120" y="535" fill="#ffcc66" font-size="11">◆ Click Rate: 18.7%</text>
+  <text x="420" y="485" fill="#ffcc66" font-size="11">◆ Conversion: 12.5%</text>
+  <text x="420" y="510" fill="#ffcc66" font-size="11">◆ AI Personalization: Active</text>
+  <text x="420" y="535" fill="#ffcc66" font-size="11">◆ ROI: +285%</text>
+</svg>

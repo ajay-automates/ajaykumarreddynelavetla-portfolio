@@ -23,6 +23,16 @@ import {
   tesla,
   shopify,
   threejs,
+  folderwave,
+  ideabytes,
+  openclaw,
+  metaquest,
+  llama,
+  langgraph,
+  ollama,
+  python,
+  langchain,
+  vectordb,
   project1,
   project2,
   project3,
@@ -36,6 +46,10 @@ import {
   linkedin,
   twitter,
   github,
+  instagram,
+  threads,
+  whatsapp,
+  calendly,
 } from "../assets";
 
 // Navbar Links
@@ -86,31 +100,31 @@ export const SERVICES = [
 export const TECHNOLOGIES = [
   {
     name: "OpenClaw",
-    icon: javascript, // Placeholder
+    icon: openclaw,
   },
   {
     name: "Meta Quest 3",
-    icon: typescript, // Placeholder
+    icon: metaquest,
   },
   {
     name: "Llama 3",
-    icon: reactjs, // Placeholder
+    icon: llama,
   },
   {
     name: "LangGraph",
-    icon: redux, // Placeholder
+    icon: langgraph,
   },
   {
     name: "Ollama",
-    icon: tailwind, // Placeholder
+    icon: ollama,
   },
   {
     name: "Python",
-    icon: nodejs, // Placeholder
+    icon: python,
   },
   {
     name: "Vector DBs",
-    icon: mongodb,
+    icon: vectordb,
   },
   {
     name: "Three JS",
@@ -118,11 +132,11 @@ export const TECHNOLOGIES = [
   },
   {
     name: "LangChain",
-    icon: git, // Placeholder
+    icon: langchain,
   },
   {
     name: "Hugging Face",
-    icon: figma, // Placeholder
+    icon: figma,
   },
   {
     name: "Docker",
@@ -135,7 +149,7 @@ export const EXPERIENCES = [
   {
     title: "Agentic AI Architect",
     company_name: "FolderWave",
-    icon: starbucks, // Placeholder
+    icon: folderwave,
     iconBg: "#383E56",
     date: "Jan 2024 - Present",
     points: [
@@ -148,7 +162,7 @@ export const EXPERIENCES = [
   {
     title: "Full Stack Developer",
     company_name: "IdeaBytes",
-    icon: tesla, // Placeholder
+    icon: ideabytes,
     iconBg: "#E6DEDD",
     date: "Jan 2019 - Jan 2022",
     points: [
@@ -172,10 +186,18 @@ export const TESTIMONIALS = [
   {
     testimonial:
       "A versatile developer who masters both backend infrastructure and cutting-edge AI technologies.",
-    name: "IdeaBytes Team",
-    designation: "Client",
-    company: "Hyderabad, India",
+    name: "Tarun Movva",
+    designation: "Software Developer",
+    company: "@Nvidia",
     image: user2,
+  },
+  {
+    testimonial:
+      "Exceptional AI engineer who deeply understands agentic systems and can architect complex autonomous workflows.",
+    name: "Siddanth Emani",
+    designation: "AI Engineer",
+    company: "@Auditoria",
+    image: user3,
   },
 ] as const;
 
@@ -247,6 +269,72 @@ export const PROJECTS = [
     source_code_link: "https://github.com/ajay-automates",
     live_site_link: "https://github.com/ajay-automates",
   },
+  {
+    name: "EmailBlast",
+    description:
+      "Automated email campaign system that leverages AI to personalize and optimize email outreach at scale, increasing engagement and conversion rates.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AI Automation",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Email API",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project4,
+    source_code_link: "https://github.com/ajay-automates/EmailBlast",
+    live_site_link: "https://email-blast.vercel.app/",
+  },
+  {
+    name: "Social Media Automator",
+    description:
+      "Intelligent tool for automating social media content creation, scheduling, and posting across multiple platforms with AI-generated captions.",
+    tags: [
+      {
+        name: "Social APIs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "LLM Integration",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Task Automation",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project5,
+    source_code_link: "https://github.com/ajay-automates/social-media-automator",
+    live_site_link: "https://socialmediaautomator.com/",
+  },
+  {
+    name: "AI Automations",
+    description:
+      "A professional consultancy portfolio showcasing AI solutions, expertise in agentic systems, and case studies of successful client implementations.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Web Design",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project6,
+    source_code_link: "https://ai-consultancy-portfolio.vercel.app/",
+    live_site_link: "https://ai-consultancy-portfolio.vercel.app/",
+  },
 ] as const;
 
 export const SOCIALS = [
@@ -259,5 +347,25 @@ export const SOCIALS = [
     name: "GitHub",
     icon: github,
     link: "https://github.com/ajay-automates",
+  },
+  {
+    name: "Instagram",
+    icon: instagram,
+    link: "https://www.instagram.com/ajay_kumar_reddie/",
+  },
+  {
+    name: "Threads",
+    icon: threads,
+    link: "https://www.threads.com/@ajay_kumar_reddie",
+  },
+  {
+    name: "WhatsApp",
+    icon: whatsapp,
+    link: "https://wa.me/18575761177",
+  },
+  {
+    name: "Calendly",
+    icon: calendly,
+    link: "https://calendly.com/ajaykumarreddynelavetla/30min",
   },
 ] as const;

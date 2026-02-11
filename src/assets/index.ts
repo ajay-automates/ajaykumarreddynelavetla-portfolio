@@ -24,11 +24,21 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
+import openclaw from "./tech/openclaw.svg";
+import metaquest from "./tech/metaquest.svg";
+import llama from "./tech/llama.svg";
+import langgraph from "./tech/langgraph.svg";
+import ollama from "./tech/ollama.svg";
+import python from "./tech/python.svg";
+import langchain from "./tech/langchain.svg";
+import vectordb from "./tech/vectordb.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import folderwave from "./company/folderwave.svg";
+import ideabytes from "./company/ideabytes.svg";
 
 import project1 from "./projects/project1.png";
 import project2 from "./projects/project2.png";
@@ -45,6 +55,10 @@ import github from "./socials/github.svg";
 import linkedin from "./socials/linkedin.svg";
 import twitter from "./socials/twitter.svg";
 import youtube from "./socials/youtube.svg";
+import instagram from "./socials/instagram.svg";
+import threads from "./socials/threads.svg";
+import whatsapp from "./socials/whatsapp.svg";
+import calendly from "./socials/calendly.svg";
 
 export {
   backend,
@@ -69,10 +83,20 @@ export {
   tailwind,
   typescript,
   threejs,
+  openclaw,
+  metaquest,
+  llama,
+  langgraph,
+  ollama,
+  python,
+  langchain,
+  vectordb,
   meta,
   shopify,
   starbucks,
   tesla,
+  folderwave,
+  ideabytes,
   project1,
   project2,
   project3,
@@ -86,4 +110,8 @@ export {
   youtube,
   linkedin,
   twitter,
+  instagram,
+  threads,
+  whatsapp,
+  calendly,
 };
