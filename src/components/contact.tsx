@@ -1,4 +1,3 @@
-import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { useState, type FormEvent, type ChangeEvent } from "react";
 import { toast } from "sonner";
@@ -14,7 +13,6 @@ export const Contact = () => {
     email: "",
     message: "",
   });
-  const [loading, setLoading] = useState(false);
 
   const handleChange = (
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
@@ -74,45 +72,20 @@ export const Contact = () => {
 
     if (!validateForm()) return false;
 
-    setLoading(true);
-
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_SERVICE_ID,
-        import.meta.env.VITE_APP_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "Ajay",
-          from_email: form.email.trim().toLowerCase(),
-          to_email: import.meta.env.VITE_APP_EMAILJS_RECIEVER,
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_KEY,
-      )
-      .then(() => {
-        toast.success("Thanks for contacting me.");
-        sendToWhatsApp();
-      })
-      .catch(() => {
-        toast.error("Something went wrong.");
-      })
-      .finally(() => {
-        setLoading(false);
-        setForm({
-          name: "",
-          email: "",
-          message: "",
-        });
-      });
-  };
-
-  const sendToWhatsApp = () => {
     const phoneNumber = "18575761177";
-    const message = encodeURIComponent(
-      `Name: ${form.name}\nEmail: ${form.email}\nMessage: ${form.message}`,
+    const whatsappMessage = encodeURIComponent(
+      `Hi, my name is ${form.name}\n\nEmail: ${form.email}\n\nMessage: ${form.message}`,
     );
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
+
     window.open(whatsappUrl, "_blank");
+    toast.success("Opening WhatsApp...");
+
+    setForm({
+      name: "",
+      email: "",
+      message: "",
+    });
   };
 
   return (
@@ -136,9 +109,7 @@ export const Contact = () => {
                 onChange={handleChange}
                 placeholder="John Doe"
                 title="What's your name?"
-                disabled={loading}
-                aria-disabled={loading}
-                className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium disabled:bg-tertiary/20 disabled:text-white/60"
+                className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               />
               <span className="text-red-400 mt-2 hidden" id="name-error">
                 Invalid Name!
@@ -155,9 +126,7 @@ export const Contact = () => {
                 onChange={handleChange}
                 placeholder="johndoe@email.com"
                 title="What's your email?"
-                disabled={loading}
-                aria-disabled={loading}
-                className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium disabled:bg-tertiary/20 disabled:text-white/60"
+                className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               />
               <span className="text-red-400 mt-2 hidden" id="email-error">
                 Invalid E-mail!
@@ -174,9 +143,7 @@ export const Contact = () => {
                 onChange={handleChange}
                 placeholder="Hello there!"
                 title="What do you want to say?"
-                disabled={loading}
-                aria-disabled={loading}
-                className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium disabled:bg-tertiary/20 disabled:text-white/60 disabled:resize-none"
+                className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               />
               <span className="text-red-400 mt-2 hidden" id="message-error">
                 Invalid Message!
@@ -185,12 +152,10 @@ export const Contact = () => {
 
             <button
               type="submit"
-              title={loading ? "Sending..." : "Send"}
-              className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl disabled:bg-tertiary/20 disabled:text-white/60"
-              disabled={loading}
-              aria-disabled={loading}
+              title="Send via WhatsApp"
+              className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl hover:bg-tertiary/80 transition-colors"
             >
-              {loading ? "Sending..." : "Send"}
+              Send via WhatsApp
             </button>
           </form>
         </motion.div>
