@@ -28,7 +28,7 @@ export const Hero = () => {
           <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
             Obsessed with AI, literally. Drop a new model? I'm testing it before the tweet's even done loading. <br className="sm:block hidden" />
             Building my whole AI universe—agentic workflows, reasoning systems, autonomous agents that slap. <br className="sm:block hidden" />
-            Everyone else is theorizing. I'm shipping. Welcome to my world
+            Welcome to my world
           </p>
         </div>
       </div>
