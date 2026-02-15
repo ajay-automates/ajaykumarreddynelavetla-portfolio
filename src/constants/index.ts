@@ -249,26 +249,26 @@ export const PROJECTS = [
     live_site_link: "https://github.com/ajay-automates",
   },
   {
-    name: "Local Brain API",
+    name: "AI Voice assistant",
     description:
-      "A privacy-first AI API server running local LLMs (Mistral, Gemma) via Ollama, integrated with a custom vector memory store.",
+      "Intelligent call screening system utilizing AI to screen calls, manage schedules, and make decisions based on real-time conversation analysis.",
     tags: [
       {
-        name: "Ollama",
+        name: "Tavus",
         color: "blue-text-gradient",
       },
       {
-        name: "FastAPI",
+        name: "OpenAI",
         color: "green-text-gradient",
       },
       {
-        name: "Vector DB",
+        name: "FastAPI",
         color: "pink-text-gradient",
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/ajay-automates",
-    live_site_link: "https://github.com/ajay-automates",
+    source_code_link: "https://github.com/ajay-automates/ai-call-assistant",
+    live_site_link: "https://github.com/ajay-automates/ai-call-assistant",
   },
   {
     name: "EmailBlast",
