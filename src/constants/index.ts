@@ -227,26 +227,26 @@ export const PROJECTS = [
     live_site_link: "https://github.com/ajay-automates",
   },
   {
-    name: "XR Spatial Interface",
+    name: "InterviewTwin",
     description:
-      "Immersive mixed reality workspace for Meta Quest 3, allowing users to interact with 3D data visualizations and AI agents in real-time.",
+      "AI-powered interview prep platform. Face a professional AI interviewer for real-time feedback or practice with your AI twin to master articulation. Powered by Tavus CVI.",
     tags: [
       {
-        name: "Meta Quest 3",
+        name: "Tavus",
         color: "blue-text-gradient",
       },
       {
-        name: "Three.js",
+        name: "AI Interview",
         color: "green-text-gradient",
       },
       {
-        name: "WebXR",
+        name: "React",
         color: "pink-text-gradient",
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/ajay-automates",
-    live_site_link: "https://github.com/ajay-automates",
+    source_code_link: "https://interview-twin.vercel.app/",
+    live_site_link: "https://interview-twin.vercel.app/",
   },
   {
     name: "AI Voice assistant",
