@@ -223,8 +223,8 @@ export const PROJECTS = [
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/ajay-automates",
-    live_site_link: "https://github.com/ajay-automates",
+    source_code_link: "https://github.com/ajay-automates/job-application-automator-mcp",
+    live_site_link: "https://github.com/ajay-automates/job-application-automator-mcp",
   },
   {
     name: "InterviewTwin",
