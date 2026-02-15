@@ -26,8 +26,8 @@ export const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Ajay</span>
           </h1>
           <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
-            I build Agentic AI Systems, XR Experiences, <br className="sm:block hidden" />
-            and Local LLM Architectures with OpenClaw
+            AI/ML Engineer with 5+ years building production-grade generative AI systems and multi-agent architectures. <br className="sm:block hidden" />
+            Specialized in LLM applications, RAG implementations, LangChain, LangGraph, voice/chat interfaces, and end-to-end deployment
           </p>
         </div>
       </div>
