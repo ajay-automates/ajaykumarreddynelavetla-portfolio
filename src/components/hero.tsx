@@ -26,8 +26,9 @@ export const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Ajay</span>
           </h1>
           <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
-            AI/ML Engineer with 5+ years building production-grade generative AI systems and multi-agent architectures. <br className="sm:block hidden" />
-            Specialized in LLM applications, RAG implementations, LangChain, LangGraph, voice/chat interfaces, and end-to-end deployment
+            Obsessed with AI, literally. Drop a new model? I'm testing it before the tweet's even done loading. <br className="sm:block hidden" />
+            Building my whole AI universe—agentic workflows, reasoning systems, autonomous agents that slap. <br className="sm:block hidden" />
+            Everyone else is theorizing. I'm shipping. Welcome to my world
           </p>
         </div>
       </div>
