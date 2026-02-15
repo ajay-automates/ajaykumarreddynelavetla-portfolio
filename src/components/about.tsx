@@ -54,9 +54,9 @@ export const About = () => {
           variants={fadeIn(undefined, undefined, 0.1, 1)}
           className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm an AI Engineer passionate about building intelligent, autonomous systems.
-          I specialize in **Agentic AI**, **Local LLMs** (Ollama, Llama 3), and **XR interactions** (Meta Quest 3).
-          From orchestrating multi-agent workflows with **OpenClaw** and **LangGraph** to creating immersive spatial computing experiences,
+          AI/ML Engineer with 5+ years building production-grade generative AI systems and multi-agent architectures.
+          Shipped multiple GenAI applications with 95% retrieval accuracy, 85%+ response rates, and sub-100ms latency.
+          Specialized in LLM applications, RAG implementations, LangChain, LangGraph, voice/chat interfaces, and end-to-end deployment with 99.9% uptime to creating immersive spatial computing experiences,
           I love pushing the boundaries of what AI can do. Let's build something crazy together!
         </motion.p>
 
