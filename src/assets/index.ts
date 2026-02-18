@@ -32,6 +32,8 @@ import ollama from "./tech/ollama.svg";
 import python from "./tech/python.svg";
 import langchain from "./tech/langchain.svg";
 import vectordb from "./tech/vectordb.svg";
+import chatgpt from "./tech/chatgpt.svg";
+import claude from "./tech/claude.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -91,6 +93,8 @@ export {
   python,
   langchain,
   vectordb,
+  chatgpt,
+  claude,
   meta,
   shopify,
   starbucks,

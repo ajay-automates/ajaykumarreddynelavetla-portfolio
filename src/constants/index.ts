@@ -33,6 +33,8 @@ import {
   python,
   langchain,
   vectordb,
+  chatgpt,
+  claude,
   project1,
   project2,
   project3,
@@ -141,6 +143,14 @@ export const TECHNOLOGIES = [
   {
     name: "Docker",
     icon: docker,
+  },
+  {
+    name: "ChatGPT",
+    icon: chatgpt,
+  },
+  {
+    name: "Claude",
+    icon: claude,
   },
 ] as const;
 
